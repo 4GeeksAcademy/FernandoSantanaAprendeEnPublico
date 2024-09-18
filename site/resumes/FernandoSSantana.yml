@@ -1,0 +1,110 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Fernando  
+    last_name: Santana
+    
+    # Define yourself in 4-5 words
+    motto: Siempre en busca de la perfeccion.
+    
+    # Focus
+    focus: A persistência leva ao sucesso.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: 
+      After years of working in restaurant I am looking to transition into programming.
+    
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: 
+
+    # Contact Information
+    email: fernandosbcn@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website:  #optional
+    linkedin:  #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: FernandoSSantana
+    
+    twitter: '' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Portuguese
+        level: Native
+
+      - idiom: Catalan
+        level: Professional
+
+      - idiom: Spanish
+        level: Professional
+
+      - idiom: English
+        level: Basic
+    # Interests or hobbies
+    interests:
+      - item: Climbing
+
+      - item: Snowboarding
+
+      - item: Cooking
+
+# Your previous education
+education:
+degree: Full Stack Develper
+university: 4 Geeks Academy
+time: 2024 - 2025
+details: 
+
+          - Bullet point
+          - Bullet point
+
+
+      # optional
+
+
+# Your previous job experiences or volunteer
+    
+          - Bullet point
+          - Bullet point
+
+  
+    
+
+          - Bullet point
+          - Bullet point
+
+# Your project portfolio
+projects:
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+
+
+skills:
+    toolset:
+      - name: Python
+        level: 0%
+
+      - name: JavaScript
+        level: 1%
+
+      - name: HTML5 & CSS
+        level: 45%
+
+      - name: Photoshop
+        level: 45%
